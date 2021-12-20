@@ -1,0 +1,143 @@
+body{
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-style: arial;
+    background-color: white;
+    color: black;
+
+}
+.mainframe{
+    height: 150px;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    
+
+    border: 0px solid black;
+    height: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: black;
+    width: 35%;
+    
+    
+    
+
+    
+    
+}
+.row-one{
+    display: flex;
+    width: 100%; 
+    border: 1px solid black;height: 20%;
+}
+.row-one>div{
+    flex: 1;
+    border: 1px solid black;
+}
+.row-two{
+    width: 100%;
+    display: flex;
+    border: 1px solid black;height: 20%;
+}
+.row-two>div{
+    flex: 1;
+    border: 1px solid black;
+}
+.row-three{
+    width: 100%;
+    display: flex;
+    border: 1px solid black;height: 20%;
+}
+.row-three>div{
+    flex: 1;
+    border: 1px solid black;
+}
+
+.row-four{
+    width: 100%;
+    display: flex;
+    border: 1px solid black;height: 20%;
+}
+.row-four>div{
+    flex: 1;
+    border: 1px solid black;
+}
+#clock{
+    font-size: 1.5rem;
+}
+.row-five{
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+    height: 20%;
+}
+.row-five>div{
+    flex: 1;
+    
+    border: 1px solid black;
+}
+
+    
+   .options{
+       background-color: pink;
+       border: 2px solid black;
+       height: 25vh;
+       width: 20%;
+       float: left;
+       flex-wrap: wrap;
+       display: flex;
+       flex: 1;
+       position: absolute;
+       bottom: 61.7%;
+       left: 12.3%;
+       
+    }
+    
+
+#space{
+    flex: 3;
+    order: 0;
+}
+select{
+    float: right;
+    margin: 0;
+    padding: 0;
+    height: 1.3rem;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+#textarea{
+    color: black;
+    width: 99.2%;
+    height: 95%;
+    font-size: 1.5rem;
+    text-align:justify;
+    font-family: sans-serif;
+    
+    
+}
+#type-array{
+    width: 98.9%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div{
+    
+    border-radius: 5px;
+
+}
+button{
+    border-radius: 5px;
+    float: left;
+}
+span{
+    
+}
