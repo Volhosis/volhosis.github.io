@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    function prime_factorization(n) {
+        let result = [];
+        for(let i = 2; i <= n; i++) {
+            if(n % i == 0 && (is_prime(i) || i == 2)) {
+                result.push(i);
+                n /= i;
+                i--;
+            }
+        }
+        document.getElementById('output').innerHTML = result;
+    }
+
+    function is_prime(n) {
+        for(let i = 2; i < n; i++) {
+            if(n % i == 0) {
+                return false;
+            }
+            return true;
+        }
+    }
+
+    </script>
+</head>
+<body>
+    <input type='number' id='user_input' onkeyup='prime_factorization(document.getElementById("user_input").value)'></input>
+    <br><h1 id='output'></h1>
+</body>
+</html>
