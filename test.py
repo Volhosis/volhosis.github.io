@@ -1,1 +1,1 @@
-print("Fuck my asshole you stupid motherfucking piece of shit")
+efefe
